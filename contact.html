@@ -5,7 +5,7 @@
     <title>Arch Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel='stylesheet' href='css/contact.css'/>
+    <link rel='stylesheet' href='css/main.css'/>
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100&display=swap" rel="stylesheet">
@@ -14,46 +14,52 @@
   <body>
 
       <!-- Header Showcase -->
-    <header id="showcase" class="grid">
-      <div class="content-wrap">
-          <div class='nav-bar'>
-            <div class="brand"><a href="index.html"><h1>arch form</h1></a></div>
-              <div class="menu" >
-                <div class="menu-wrap">
-                  <input type="checkbox" class="toggler">
-                    <div class="hamburger"><div></div></div>
-                    <div class="menu">
-                      <div>
-                        <div>
-                          <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="index.html#section-b">Work</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                          </ul>
-                        </div>
-                      </div>
+      <header>
+        <div class="contact-pg-hero">
+        <div class='nav-bar'>
+            <div class="menu" >
+               <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div class="menu">
+                  <div>
+                    <div>
+                      <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#section-b">Work</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
                     </div>
+                  </div>
                 </div>
               </div>
-          </div>  
-      </div>
+            </div>
+          </div>
+
+          <h1>say hello.</h1>
+          <!-- <p>creating extraordinary minimally.</p>
+          <a href="#contact">start a project</a>
+          <span>&#8738;</span> -->
+        </div>
     </header>
 
-    <main id="main">
 
-    <div class="bg-image"></div>
+    <main id="contact-page-main">
 
-      <!-- Section D -->
-      <section id="section-d" class="grid">
-        <div class="box">
+    <!-- <div class="bg-image"></div> -->
+
+      <!-- Section A -->
+      <section id="section-a" class="grid">
+        <div class="contact-pg-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iusto, reiciendis, mollitia, ea eligendi doloremque necessitatibus soluta quia repellendus alias voluptate reprehenderit distinctio! Aperiam ea dolores eaque est sapiente iste quam fugit suscipit reprehenderit expedita odit quisquam nemo et neque culpa excepturi molestiae, voluptate porro?</p>
           <div class="connect">
             <ul>
-              <li><h3>arch form</h3></li>
-              <li><h3>555 S.Elizabeth Ave,
-                Chicago, IL,</h3></li>
-              <li><h3>224-630-1836</h3></li>
-              <li><h3>archform@gmail.com</h3></li>
+              <li>arch form</li>
+              <li>555 S.Elizabeth Ave,
+                Chicago, IL,</li>
+              <li>224-630-1836</li>
+              <li>archform@gmail.com</li>
               <!-- <li>Arch Form</li>
               <li>Arch Form</li> -->
             </ul>
@@ -65,39 +71,54 @@
               <a href="#" class="fa fa-pinterest"></a>
             </div>
           </div>
-        </div>
-        <div class="box">
+
           <form action="/action_page.php">
-            <label for="fname">First Name</label>
+            <!-- <label for="fname">First Name</label> -->
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-            <label for="lname">Last Name</label>
+            <!-- <label for="lname">Last Name</label> -->
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-            <label for="email">Email</label>
+            <!-- <label for="email">Email</label> -->
             <input type="text" id="mail" name="email" placeholder="Your Email">
 
-            <label for="country">Country</label>
+            <!-- <label for="country">Country</label> -->
             <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
               <option value="usa">USA</option>
+              <option value="canada">Canada</option>
+              
+              <option value="australia">Australia</option>
+             
             </select>
 
-            <label for="subject">Subject</label>
+            <!-- <label for="subject">Subject</label> -->
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:126px"></textarea>
 
             <input type="submit" value="Submit">
           </form>
         </div>
+        <!-- <div class="box"> -->
+      
+        <!-- </div> -->
       </section>
     </main>
 
-      <!-- Footer -->
-    <footer id="main-footer" class="grid">
-      <div>arch form</div>
-      <div><a href="contact.html" target="_blank">contact</a></div>
-    </footer>
-
+  <!-- Footer -->
+  <footer class="foot">
+    <div class="foot-links">
+    <a href="#">home</a>
+    <a href="#">about</a>
+    <a href="#">work</a>
+    <a href="#">contact</a>
+  </div>
+  
+  <ul>
+    <li>archform@gmail.com</li>
+    <li>Chicago 312-555-555</li>
+    <li>Denver 312-555-555</li>
+  </ul>
+     <p> &#169; 2021 Copyright archform </p>
+  </footer>
+  <script src="js/menu.js"></script>
   </body>
 </html>
